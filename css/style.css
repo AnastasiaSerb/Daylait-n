@@ -1,0 +1,295 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;}
+
+.wrapper{
+	font: 18px/25px , "Helvetica Neue", sans-serif;
+	color: #818181;
+	background: #f9f9f9;
+	height: 2865px;
+	width: 1050px;
+	display: block;
+	margin: auto;
+	border: 1px solid #a89574;
+
+}
+header{
+	width: 1050px;
+	height: 100px;
+	background: #ffffff;
+	margin-top: 10px;
+	
+}
+header img{
+	margin: 34px 240px 0 20px;
+	float: left;
+}
+header ul li{
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 40px;
+	margin-right: 25px;
+		}
+.social {
+	height: 40px;
+	
+	padding-top: 30px;
+}
+h1 {
+	color: #a89574;
+	padding-left: 20px;
+	padding-right: 0px;
+	float: left;
+	font-size: 40px;
+}
+
+
+header li a{
+	text-decoration: none;
+	color: #a7a7a7;
+	font-size: 14px;}
+li a:hover {
+	color:#A89574;	
+	}
+.social img{
+	margin: 2px;
+	
+
+}
+.slider{
+	width:1050px;
+	height:450px;
+	background:#2a2a2a;
+	
+}
+.slider img{
+	margin-left: 80px;
+	margin-top: 25px;
+	float: left;
+	margin-right: 0px;
+}
+.slider_text{
+	width: 600px;
+	float: left;
+	height: 450px;
+}
+.slider_text p{
+	padding-left: 20px;
+	color: #c7c7c7;
+	margin-left: 0px;
+	font-size: 24px;
+	margin-top: 0px;
+	padding-bottom: 50px;
+}
+.slider_text  a{
+	color: #a89574;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	
+	padding: 15px;
+	margin-left: 20px;
+	border: #A89574 solid;
+	border-radius: 10px;
+	
+	
+}
+.intro_section{
+	width:1050px;
+	height:260px;
+	background:#f4f4f4;
+}h2 {
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+.intro_section p{
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	
+}
+ .intro_section a{
+	color: #a89574;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	
+	padding: 15px;
+	margin-left: 15px;
+	border: #A89574 solid;
+	border-radius: 10px;
+	
+}
+.process_section{
+	width: 1000px;
+	margin-left: 15px;
+	height: 1100px;
+}
+.process_section img{
+	margin-left: 40px;
+	margin-right: 50px;
+}
+ ol li{
+	display: inline;
+	padding-right: 105px;
+}
+section{
+	width:160px;
+	float:left;
+	margin-right:35px;}
+
+figure {
+	background: #d9dabb; /* Цвет фона */
+	display: block; /* Блочный элемент */
+	width: 230px; /* Ширина */
+	height: 264px; /* Высота */
+	float: left; /* Блоки выстраиваются по горизонтали */
+	margin: 0 20px 10px 0; /* Отступы */
+	text-align: center;	 /* Выравнивание по центру */
+   }
+ figure img {
+    border: 2px solid #8b8e4b;
+	width:180;
+	height:180;
+	background:grey; /* Параметры рамки */
+   }
+   figure p {
+    margin-bottom: 0; /* Отступ снизу */
+   }
+.blog{
+	width: 500px;
+	float: left;
+}
+.blog section{
+	width: 500px;
+	margin: 50px 0 0;
+}
+.blog img{
+	float: left;
+
+	
+}
+.blog p{
+	padding-top: 20px;
+	padding-left: 100px;
+}
+.blog a{
+	text-decoration: none;
+	color: #a89574;
+	padding-left: 95px;
+
+}
+.about_section{
+	width: 485px;
+	height: auto;
+	float: right;
+	margin-top: 50px;
+	
+}
+.about_section ul li{
+	font-size:12px;}
+.about_section a{
+	text-decoration:none;
+	color: #a89574;}
+.about_section p{
+	padding:0 0 0 10px;}
+.testimonial{
+	width: 1050px;
+	height: 300px;
+	background: #f4f4f4;
+	margin-top: 0px;
+}
+.testimonial p{
+	text-align: center;
+	font-size: 120px;
+	
+	
+}
+.section p{
+	font-size: 14px;
+}
+.section{
+	width: 700px;
+	height: 200px;
+	margin: -120px 0px 0px 180px;
+}
+h6{
+   text-align: center;
+   color: #a89574;
+}
+footer{
+	height: 400px;
+	width: 1050px;
+	background: #393939;
+}
+.contact{
+	width: 230px;
+	height: 360px;
+	margin: 0px 0 0 22px;
+	
+	float: left;
+}
+h5{
+	color: #efefef;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.contact p{
+	color: #d2d2d2;
+	font-size: 14px;
+}   
+   li {
+    display: inline-block;
+    list-style: none; /* Убираем маркеры */
+     padding: 10px 0 0 0px; 
+   /* Выравниваем по центру */
+
+   }
+   .icon {
+    font-size: 1em; /* Размер иконок */
+    display: inline-block; /* Блочный элемент */
+     padding-right: 10px;
+   }
+    .contact a {
+    color: #d2d2d2; 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+    padding: 0 0 5px; /* Поле снизу */
+    font-size: 14px;
+   }
+   .menu {
+    padding: 0;
+    margin: 0;
+}
+input{
+	margin: 10px;
+	background: #2e2e2e;
+	color: #f1f1f1;
+	border: none;
+}
+textarea{
+	margin: 10px;
+	background: #2e2e2e;
+	color: #f1f1f1;
+	border: none;
+}
+p input{
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+}
+footer section{
+	width: 1050px;
+	height: 80px;
+	background: #333333;
+	margin-top: 40px;
+	
+}
+footer section p{
+	padding: 25px 0 0 25px;
+
+}
